@@ -1,0 +1,11 @@
+[
+  "Wicker Chair $250.00",
+  "Black Shell Chair $320.00",
+  "Wooden Stools $210.00",
+  "Upholstered White Chair $210.00",
+  "White Shell Chair $210.00",
+  "Modern Wooden Chair $210.00",
+  "Tall Wooden Stool $210.00",
+  "Plastic White Chair $210.00",
+  "Upholstered Black Barstool $210.00"
+]

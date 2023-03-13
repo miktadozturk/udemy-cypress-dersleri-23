@@ -1,0 +1,2 @@
+Sifirdan Cypress Derslerine Hosgeldiniz.
+Bu egitim serisinde sifirdan ileri seviyeye cypress ogreneceksiniz.
