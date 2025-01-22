@@ -5,25 +5,28 @@
   "main": "cypress.config.js",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run": "cypress run",
     "cy:spec": "cypress run --spec",
     "cy:test:chrome": "cypress run --browser chrome",
     "cy:test:firefox": "cypress run --browser firefox",
     "cy:test:edge": "cypress run --browser edge",
-    "cy:verify": "cypress verify"
+    "cy:verify": "cypress verify",
+    "test": "npx cypress run --headed",
+    "cy:parallel": "cypress-parallel -d cypress/e2e/udemy-cypress-egitim/ -t 5 -s test"
   },
   "author": "Miktad Ozturk",
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
-    "cypress": "^13.2.0",
+    "cypress": "^13.6.1",
     "cypress-delete-downloads-folder": "^0.0.2",
     "cypress-file-upload": "^5.0.8",
+    "cypress-if": "^1.10.5",
     "cypress-mochawesome-reporter": "^3.3.0",
     "cypress-slow-down": "^1.2.1",
     "playwright-webkit": "^1.31.2"
   },
   "dependencies": {
+    "cypress-parallel": "^0.14.0",
     "cypress-plugin-steps": "^1.1.0",
     "cypress-plugin-xhr-toggle": "^1.0.0"
   }
